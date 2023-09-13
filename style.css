@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(193, 166, 222);
+}
+nav a{
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: rgb(215, 93, 187);
+    text-align:right;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+nav a:hover{
+    color: rgb(171, 18, 201);
+}
+
+.main{
+    background-color: blanchedalmond;
+    width: 160vw;
+    height: 100vh;
+}
+h1{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'Chokokutai', cursive;
+    font-size: 35px;
+    color: rgb(6, 6, 83);
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: lightcoral;
+    height: 50vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.about{
+    font-size: 35px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 30px;
+    color: rgb(124, 26, 216);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+    background-color: rgba(198, 148, 208, 0.765);
+    margin: 0 4px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px 5px;
+    width: 80px;
+    background-color: rgb(118, 209, 209);
+    color: rgb(27, 37, 37);
+}
+.btn:hover{
+    background-color: rgba(21, 81, 90, 0.763);
+    color: black;
+}
+.devpic img{
+    width:60vh;
+}
+.contactform{
+    padding:0 30px;
+    padding-top: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   font-weight: 200;
+   background-color: pink;
+   border: 4px solid rgb(246, 210, 210);
+   border-radius: 20px;
+   margin-top: 150px;
+   margin-bottom: 200px;
+   margin-left: 100px;
+   margin-right: 800px;
+   padding-bottom: 10px;
+}
+.contactform h1{
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 24vw;
+    border-radius: 10px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#emailHelp{
+    font-size: 15px;
+    color: rgb(4, 75, 99);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    padding: 3px 0;
+}
+.intro h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 12px;
+    color: rgb(9, 16, 141);
+}
+.intro p{
+    margin: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+.skillitem{
+    display: flex;
+    padding: 2px 3px;
+    align-items: center;
+    font-style: oblique;
+    font-weight: 300;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width:50vh;
+    height:15px;
+    background-color: rgb(14, 1, 82);
+}
+.fifty{
+    width:200px;
+    background-color: aqua;
+}
+.hundred{
+    width: 300px;
+    background-color: blueviolet;
+}
+.t4{
+    width: 400px;
+    background-color: rgb(188, 232, 122);
+}
+.t5{
+    width: 500px;
+    background-color: rgb(5, 73, 73);
+}
+.intro{
+    display: flex;
+    margin:30px 40px;
+    margin-top: 200px;
+    width: 1200px;
+    height: 40vh;
+    gap: 40px;
+    background-color:pink;
+    padding: 5px 3px;
+   
+}
+.button{
+   
+    padding: 5px;
+    border-radius: 30px;
+    color: rgb(124, 26, 216);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+    background-color: rgba(237, 221, 112, 0.739);
+    margin: 0 4px;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+  
+    background-image: url("https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=612x612&w=0&k=20&c=_vmYyAX0aFi-sHH8eYS-tLLNfs1ZWXnNB8M7_KWwhgg=");
+    background-repeat: no-repeat;
+  
+ 
+   background-size: cover;
+
+}  
+  
+
+body{
+    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-abstract-playful-portfolio-pink-memphis-picture-image_1347357.jpg");
+    background-repeat: no-repeat;
+  
+ 
+   background-size: cover;
+
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: blueviolet;
+}
+.intro{
+    align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width:90%;
+      
+
+}
